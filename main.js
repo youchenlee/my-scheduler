@@ -4,7 +4,6 @@ const moment = require('moment')
 
 fs = require('fs');
 
-let y = R.map(x => x * 2, [1, 2, 3])
 let inputStr = fs.readFileSync('./tasks.csv', 'utf8')
 let input = parse(inputStr, {columns: true, skip_empty_lines: true, skip_lines_with_empty_values: true})
 
